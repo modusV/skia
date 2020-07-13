@@ -1,8 +1,6 @@
-
 import math
 import numpy as np
 import pandas as pd
-import plotly.express as px
 from PIL import Image, ImageOps
 from pvlib.irradiance import erbs
 from skimage.filters import threshold_otsu
