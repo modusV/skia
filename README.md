@@ -10,6 +10,7 @@ Calculating solar irradiance in street canyons using Google Street View (GSV) im
 
 
 ## Usage
+Install the requirements using ```pip install -r requirements.txt```
 
 The ``call.py`` file contains an high-level interface to the library, which allows to obtain the final prediction at once. It accepts as input parameters:
 
