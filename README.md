@@ -35,7 +35,7 @@ filenames = {
 
 
 ## Aknowledgments
-I would like to personally mention Fang-Ying Gong, because the code implemented for transforming the images from cylindrical to fisheye and to orient panoramas to north has been translated from her original matlab code.
+I would like to personally mention Fang-Ying Gong, because the code implemented for transforming the images from cylindrical to fisheye, to orient panoramas to north and to find a pixel on the fish-eye image has been translated from her original matlab code.
 
 ## References
 
