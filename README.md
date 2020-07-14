@@ -3,8 +3,8 @@ Calculating solar irradiance in street canyons using Google Street View (GSV) im
 
 ## Needed data
 
-1. File containing GSV cars panorama ids and car heading in degrees with respect to north. It can be downloaded using the tool at https://github.com/modusV/gsvpypano
-2. Images correponding to those points; a tool to retrieve these panoramas is available in the just mentioned repository, **gsvpypano**. If the brightness based method is chosen, use `full=True` in the download tool and provide the images 'as they are'. If the deep learning method is preferred, use `cropped=True`, classify them using the Pyramid Scene Parsing network found at https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow, and recompose the output frames with the `compose_folder()` method found in **gsvpypano**.
+1. File containing GSV cars panorama ids and car heading in degrees with respect to north. It can be downloaded using the tool at https://github.com/modusV/pygsvpano
+2. Images correponding to those points; a tool to retrieve these panoramas is available in the just mentioned repository, **pygsvpano**. If the brightness based method is chosen, use `full=True` in the download tool and provide the images 'as they are'. If the deep learning method is preferred, use `cropped=True`, classify them using the Pyramid Scene Parsing network found at https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow, and recompose the output frames with the `compose_folder()` method found in **pygsvpano**.
 3. Dataframe with the sun location in the sky with a 10 minutes resolution. It is available for download at https://midcdmz.nrel.gov/solpos/solpos.html. The most important fields to check are 'Solar Zenith Angle' and 'Solar Azimuth Angle'.
 4. Weather data of the location with a column indicating the Global Horizontal Irradiance for that specific time. These data are available at several websites, such as https://www.worldweatheronline.com/developer/. The GHI values can be obtained using the model presented at the repository https://github.com/modusV/fos
 
